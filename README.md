@@ -45,7 +45,7 @@ Young adults often fall into traps of impulsive spending driven by emotional sta
 * **Framework:** React + Vite
 * **Styling:** Tailwind CSS (Dark Mode, Glassmorphism)
 * **Icons:** Lucide-React
-* **Deployment:** Render (Static Site)
+* **Deployment:** Localhost
 
 ### Backend (`/backend`)
 * **Framework:** Python FastAPI
