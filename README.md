@@ -15,20 +15,12 @@
   <img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
 </p>
 
----
 
-## 🚀 Live Demo
-**Frontend (Web App):** [Insert your Render Frontend Link Here]
-**Backend (API Base URL):** [Insert your Render Backend Link Here]
 
-> **Note to Judges:** The application is fully deployed. You can use the live web app to simulate transactions and watch the ML model generate real-time behavioural nudges.
-
----
-
-## 🎯 The Problem
+##  The Problem
 Young adults often fall into traps of impulsive spending driven by emotional states, cognitive fatigue, and the "illusion of liquidity" (e.g., payday splurging). Traditional banking apps only show *what* was spent. **NeuroFinance.AI** analyzes *how and why* money is being spent in real-time to intervene before the transaction completes.
 
-## ✨ Key Features
+##  Key Features
 * **Live Transaction Simulator:** A sleek, glassmorphism UI to input transaction data.
 * **Real-time ML Inference:** A Random Forest model calculates a deterministic "Impulse Risk Score" (0-100) using `predict_proba`.
 * **Behavioural Profiling:** Dynamically categorizes users (e.g., *The Midnight Spender*, *The Payday Splurger*) based on engineered context features.
@@ -36,7 +28,7 @@ Young adults often fall into traps of impulsive spending driven by emotional sta
 
 ---
 
-## 📊 Dataset & Behavioural Simulation Logic
+##  Dataset & Behavioural Simulation Logic
 **Dataset Type:** Synthetic Data (Generated via Python/Pandas)
 
 **Why Synthetic?** Real-world, granular behavioural banking datasets (with precise timestamps, categories, and user demographics) are heavily protected by privacy laws. To solve this problem practically, we generated a robust dataset of over 26,000+ records governed by established behavioural economic theories:
@@ -48,7 +40,7 @@ Young adults often fall into traps of impulsive spending driven by emotional sta
 
 ---
 
-## ⚙️ Tech Stack & Architecture
+##  Tech Stack & Architecture
 ### Frontend (`/frontend`)
 * **Framework:** React + Vite
 * **Styling:** Tailwind CSS (Dark Mode, Glassmorphism)
@@ -62,7 +54,7 @@ Young adults often fall into traps of impulsive spending driven by emotional sta
 
 ---
 
-## 💻 Running Locally
+##  Running Locally
 
 ### 1. Start the API (Backend)
 ```bash
